@@ -1,4 +1,4 @@
-package USS_308_TC_308;
+package US_308_TC_01;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.time.Duration;
 
 public class TC_308 extends BaseDriver {
 

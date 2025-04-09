@@ -1,19 +1,16 @@
-package US_303;
+package US_303_TC_01;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.time.Duration;
 
 public class US_303_ extends BaseDriver {
 
@@ -56,8 +53,11 @@ public class US_303_ extends BaseDriver {
         WebElement NameOnCard = driver.findElement(By.cssSelector("p[class='Billing-Name Inline MarginRight']>input"));
         actions.moveToElement(NameOnCard).click().sendKeys("DIYAR").build().perform();
 
+        MyFunc.Bekle(2);
 
-        driver.switchTo().frame(1);
+        WebElement FRAME= driver.findElement(By.xpath("(//iframe[contains(@name,'__privateStripeFrame')])[1]"));
+        driver.switchTo().frame(FRAME);
+
         WebElement Cartnumber = driver.findElement(By.xpath("(//*[@class='InputContainer']/input)[1]"));
         Cartnumber.sendKeys("1111111111111111");
 
