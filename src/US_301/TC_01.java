@@ -1,4 +1,4 @@
-package US_301_TC_01;
+package US_301;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class TC_301 extends BaseDriver {
+public class TC_01 extends BaseDriver {
 
     @Test
     public void test1(){

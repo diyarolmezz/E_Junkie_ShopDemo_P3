@@ -1,4 +1,4 @@
-package US_302_US_01;
+package US_302;
 
 import Utility.BaseDriver;
 import org.openqa.selenium.By;

@@ -1,4 +1,4 @@
-package US_308_TC_01;
+package US_308;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class TC_308 extends BaseDriver {
+public class TC_01 extends BaseDriver {
 
     @Test
     public void TC_308() throws AWTException {

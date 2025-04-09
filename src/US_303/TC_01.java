@@ -1,4 +1,4 @@
-package US_303_TC_01;
+package US_303;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class US_303_ extends BaseDriver {
+public class TC_01 extends BaseDriver {
 
 
     @Test
