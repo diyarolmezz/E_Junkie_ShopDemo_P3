@@ -28,7 +28,7 @@ public class TC_308 extends BaseDriver {
         Robot rbt = new Robot();
         for (int i = 0; i < 17; i++) {
             try {
-                Thread.sleep(Duration.ofMillis(100));  //Döngüyü yavaşlatmadığımızda tab'a basma sayısı değişip hata verebiliyor.
+                Thread.sleep(100);  //Döngüyü yavaşlatmadığımızda tab'a basma sayısı değişip hata verebiliyor.
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
