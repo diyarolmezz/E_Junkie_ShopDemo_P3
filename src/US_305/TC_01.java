@@ -47,7 +47,6 @@ public class TC_01 extends BaseDriver {
 
         WebElement cvc = driver.findElement(By.xpath("//input[@name='cvc']"));
         cvc.sendKeys("000");
-
         driver.switchTo().parentFrame();
 
         MyFunc.Bekle(20);
@@ -55,27 +54,17 @@ public class TC_01 extends BaseDriver {
         WebElement pay = driver.findElement(By.xpath("//button[@class='Pay-Button']"));
         pay.click();
 
-        WebDriverWait bekle = new WebDriverWait(driver, Duration.ofSeconds(30));
-        bekle.until(ExpectedConditions.urlContains("fatfreecartpro.com/ecom/"));
-//        wait.until(ExpectedConditions.urlContains("fatfreecartpro.com/ecom/"));
-//        MyFunc.Bekle(5);
+        driver.switchTo().defaultContent();
 
+        MyFunc.Bekle(20);
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[text()='Download']")));
-        driver.switchTo().frame(0);
-
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='USD 0.50'])[2]")));
-//        WebElement finalprice= driver.findElement(By.xpath("//div[@class='col-md-6 col-sm-6 col-xs-6 text-right']//span"));
-        WebElement finalprice = driver.findElement(By.xpath("(//span[text()='USD 0.50'])[2]"));
-//        WebElement finalPrice2=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[@class='usd'])[2]")));
+        WebElement finalprice = driver.findElement(By.xpath("//div[@class='col-md-6 col-sm-6 col-xs-6 text-right']//span"));
 
         String price2 = finalprice.getText().replaceAll("[^0-9,.]", "");
-
         WebElement download = driver.findElement(By.xpath("//*[text()='Download']"));
         download.click();
 
         Assert.assertEquals(price1, price2, "Toplam fiyat hatali!!!");
-
 
     }
 }
