@@ -56,39 +56,40 @@ We simulate **manual test cases** with positive and negative scenarios, aiming t
 
 ### US_301 — Promo Code - Invalid Entry  
 [View GIF](docs/US301_EJunkie_PromoCodeNegative.gif)  
-![](docs/US301_EJunkie_PromoCodeNegative.gif)
+<img src="docs/US301_EJunkie_PromoCodeNegative.gif" width="400"/>
 
 ### US_302 — Payment Failure with Invalid Card  
 [View GIF](docs/US302_EJunkie_PayNegative.gif)  
-![](docs/US302_EJunkie_PayNegative.gif)
+<img src="docs/US302_EJunkie_PayNegative.gif" width="400"/>
 
 ### US_303 — Failed Payment Scenario  
 [View GIF](docs/US303_EJunkie_PayNegative.gif)  
-![](docs/US303_EJunkie_PayNegative.gif)
+<img src="docs/US303_EJunkie_PayNegative.gif" width="400"/>
 
 ### US_304 — Successful Payment  
 [View GIF](docs/US304_EJunkie_Pay.gif)  
-![](docs/US304_EJunkie_Pay.gif)
+<img src="docs/US304_EJunkie_Pay.gif" width="400"/>
 
 ### US_305 — Download Purchased E-Book  
 [View GIF](docs/US305_EJunkie_Download.gif)  
-![](docs/US305_EJunkie_Download.gif)
+<img src="docs/US305_EJunkie_Download.gif" width="400"/>
 
 ### US_306 — Contact Form Submission  
 [View GIF](docs/US306_EJunkie_ContactUs.gif)  
-![](docs/US306_EJunkie_ContactUs.gif)
+<img src="docs/US306_EJunkie_ContactUs.gif" width="400"/>
 
 ### US_307 — Site Navigation and Logo Access  
 [View GIF](docs/US307_EJunkie_Logo.gif)  
-![](docs/US307_EJunkie_Logo.gif)
+<img src="docs/US307_EJunkie_Logo.gif" width="400"/>
 
 ### US_308 — Info Video on Homepage  
 [View GIF](docs/US308_EJunkie_Youtube.gif)  
-![](docs/US308_EJunkie_Youtube.gif)
+<img src="docs/US308_EJunkie_Youtube.gif" width="400"/>
 
 ### US_309 — Download Details After Purchase  
 [View GIF](docs/US309_EJunkie_DownloadDetails.gif)  
-![](docs/US309_EJunkie_DownloadDetails.gif)
+<img src="docs/US309_EJunkie_DownloadDetails.gif" width="400"/>
+
 
 ---
 
