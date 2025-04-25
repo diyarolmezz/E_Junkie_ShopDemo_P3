@@ -54,17 +54,44 @@ We simulate **manual test cases** with positive and negative scenarios, aiming t
 
 ## 📁 Evidence Files (Manual Testing)
 
-| User Story | Description                        | Preview | Link |
-|------------|------------------------------------|---------|------|
-| US_301     | Promo Code - Invalid Entry         | ![](docs/US301_PromoCodeNegative.gif) | [View](docs/US301_PromoCodeNegative.gif) |
-| US_302     | Payment Failure with Invalid Card  | ![](docs/US302_PayNegative.gif)       | [View](docs/US302_PayNegative.gif)       |
-| US_303     | Failed Payment Scenario            | ![](docs/US303_PayNegative.gif)       | [View](docs/US303_PayNegative.gif)       |
-| US_304     | Successful Payment                 | ![](docs/US304_Pay.gif)               | [View](docs/US304_Pay.gif)               |
-| US_305     | Download Purchased E-Book          | ![](docs/US305_Download.gif)          | [View](docs/US305_Download.gif)          |
-| US_306     | Contact Form Submission            | ![](docs/US306_ContactUs.gif)         | [View](docs/US306_ContactUs.gif)         |
-| US_307     | Site Navigation and Logo Access    | ![](docs/US307_Logo.gif)              | [View](docs/US307_Logo.gif)              |
-| US_308     | Info Video on Homepage             | ![](docs/US308_Youtube.gif)           | [View](docs/US308_Youtube.gif)           |
-| US_309     | Download Details After Purchase    | ![](docs/US309_DownloadDetails.gif)   | [View](docs/US309_DownloadDetails.gif)   |
+### US_301 — Promo Code - Invalid Entry  
+[View GIF](docs/US301_PromoCodeNegative.gif)  
+![](docs/US301_PromoCodeNegative.gif)
+
+### US_302 — Payment Failure with Invalid Card  
+[View GIF](docs/US302_PayNegative.gif)  
+![](docs/US302_PayNegative.gif)
+
+### US_303 — Failed Payment Scenario  
+[View GIF](docs/US303_PayNegative.gif)  
+![](docs/US303_PayNegative.gif)
+
+### US_304 — Successful Payment  
+[View GIF](docs/US304_Pay.gif)  
+![](docs/US304_Pay.gif)
+
+### US_305 — Download Purchased E-Book  
+[View GIF](docs/US305_Download.gif)  
+![](docs/US305_Download.gif)
+
+### US_306 — Contact Form Submission  
+[View GIF](docs/US306_ContactUs.gif)  
+![](docs/US306_ContactUs.gif)
+
+### US_307 — Site Navigation and Logo Access  
+[View GIF](docs/US307_Logo.gif)  
+![](docs/US307_Logo.gif)
+
+### US_308 — Info Video on Homepage  
+[View GIF](docs/US308_Youtube.gif)  
+![](docs/US308_Youtube.gif)
+
+### US_309 — Download Details After Purchase  
+[View GIF](docs/US309_DownloadDetails.gif)  
+![](docs/US309_DownloadDetails.gif)
+
+
+
 
 
 ---
