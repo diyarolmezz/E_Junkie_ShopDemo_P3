@@ -52,6 +52,20 @@ We simulate **manual test cases** with positive and negative scenarios, aiming t
 
 ---
 
+## 📌 Contributors
+
+| Name                                                       | Role               |
+|------------------------------------------------------------|--------------------|
+| [Diyar Ölmez](https://github.com/diyarolmez)               | GitHub Manager     |
+| [Gamze Batmaz](https://github.com/GAMZE3845)               | Jira Administrator |
+| [Ebubekir Duvarcı](https://github.com/Ebubekir2025)        | Tester             |
+| [Barış Saydam](https://github.com/BarisSaydam)             | Tester             |
+| [Erdem Özkan](https://github.com/ErdemOzkann)              | Tester             |
+| [Ömer Boncuk](https://github.com/palanque92)               | Tester             |
+| [Atilla Toros Avcı](https://github.com/AtillaTorosAvci)    | Tester             |
+
+---
+
 ## 📁 Evidence Files (Manual Testing)
 
 ### US_301 — Promo Code - Invalid Entry  
@@ -89,23 +103,6 @@ We simulate **manual test cases** with positive and negative scenarios, aiming t
 ### US_309 — Download Details After Purchase  
 [View GIF](docs/US309_EJunkie_DownloadDetails.gif)  
 <img src="docs/US309_EJunkie_DownloadDetails.gif" width="400"/>
-
-
----
-
-
-## 📌 Contributors
-
-| Name                                                       | Role               |
-|------------------------------------------------------------|--------------------|
-| [Diyar Ölmez](https://github.com/diyarolmez)               | Git Manager        |
-| [Gamze Batmaz](https://github.com/GAMZE3845)               | Jira Administrator |
-| [Ebubekir Duvarcı](https://github.com/Ebubekir2025)        | Tester             |
-| [Barış Saydam](https://github.com/BarisSaydam)             | Tester             |
-| [Erdem Özkan](https://github.com/ErdemOzkann)              | Tester             |
-| [Ömer Boncuk](https://github.com/palanque92)               | Tester             |
-| [Atilla Toros Avcı](https://github.com/AtillaTorosAvci)    | Tester             |
-
 
 
 ---
