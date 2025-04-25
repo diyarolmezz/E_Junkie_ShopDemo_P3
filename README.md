@@ -56,7 +56,7 @@ We simulate **manual test cases** with positive and negative scenarios, aiming t
 
 | Name                                                       | Role               |
 |------------------------------------------------------------|--------------------|
-| [Diyar Ölmez](https://github.com/diyarolmez)               | GitHub Manager     |
+| [Diyar Ölmez](https://github.com/diyarolmezz)               | GitHub Manager     |
 | [Gamze Batmaz](https://github.com/GAMZE3845)               | Jira Administrator |
 | [Ebubekir Duvarcı](https://github.com/Ebubekir2025)        | Tester             |
 | [Barış Saydam](https://github.com/BarisSaydam)             | Tester             |
